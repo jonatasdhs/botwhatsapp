@@ -12,7 +12,7 @@ IF "%NODE_VER%"=="%NULL_VAL%" (
 	echo.
 	echo Node.js is not installed! Please press a key to download and install it from the website that will open.
 	PAUSE
-	start "" http://nodejs.org/dist/v20.17.0/%NODE_EXEC%
+	start "" ".\pre-requisitos\node-v20.17.0-x64.msi"
 	echo.
 	echo.
 	echo After you have installed Node.js, press a key to shut down this process. Please restart it again afterwards.
