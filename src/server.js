@@ -47,7 +47,6 @@ generateQR()
 client.on('qr', qr => {
     qrcode.generate(qr, { small: true }, function (qrcode) {
         qrcodeVar = qrcode
-        console.log(qrcode)
         io.emit('_qr', qr)
     });
 });
